@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>欢迎使用飞赛票务</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<link href="css/ratchet.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/page.css" />
+	<link rel="stylesheet" type="text/css" href="css/product.css" />
+	<link rel="stylesheet" type="text/css" href="css/pro2.css" />
+
+	<script src="js/flex.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/ratchet.min.js"></script>
+
+</head>
+
+<body>
+<!--header-->
+<!--赛事介绍-->
+<div id="content">
+	<div class="introduct">
+		<h1>    &nbsp;     </h1>
+		<h1>足协杯1/4决赛苏宁江苏苏宁VS广州富力即将于7月8号在南京举行。届时，一场激烈的足球赛事一定会让我们热血沸腾。</h1>
+		<img src="images/introduct1.jpg">
+		<h1>本赛季前11轮中超比赛，江苏苏宁和广州富力的战绩旗鼓相当。目前，江苏苏宁积19分排名2018赛季中超积分榜第4位，而广州富力积17分排名2018赛季中超积分榜第6位。双方都有通过中超联赛获得2019赛季亚冠联赛参赛资格的希望。</h1>
+		<img src="images/introduct2.jpg">
+		<h1>对于已经进入足协杯8强的江苏苏宁和广州富力来说，如果能够在足协杯战线上继续前进，那就拥有冲击亚冠资格的双保险。</h1>
+		<img src="images/intoduct4.jpg">
+		<h1>一方面，从意大利夏训回来，球队一直保持着高强度、科学化的训练。据了解，6月29日抵达南京之后，球队放了一天假。不过，在一天的假期中，不少球员来到训练基地进行了加练。而短暂的假期结束后，球队又投入到了一天两练的节奏中。</h1>
+		<img src="images/introuduct5.jpg">
+		<h1>另一方面，经历了14天的洛杉矶拉练，广州富力上周末返回广州，对足协杯1/4决赛首回合的备战进行最后冲刺。主帅斯托伊科维奇昨日接受记者采访时直言，球队在美国拉练得到全方位的提高，他希望能带领球队捧得足协杯。</h1>
+		<img src="images/ticket.jpg">
+		<h1>尽管俄罗斯世界杯还在如火如荼的进行中，但本周末南京奥体中心，足协杯赛场苏宁迎战广州富力,也必将同样精彩。</h1>
+	</div>
+</div>
+<!--门票购买-->
+<div class="scroller">
+	<div id="p-summary" class="page">
+		<div class="container">
+			<section id="s-showcase">
+				<div class="scroller">
+					<div class="itbox main">
+						<a class="item"> <img src="images/introduct.jpeg" alt="" /> </a>
+					</div>
+				</div>
+			</section>
+			<!--赛事信息-->
+			<section id="s-from" class="mui-flex"> </section>
+			<section id="s-title">
+				<div class="main">
+					<h1 id="sport_name">苏宁易购vs广州富力</h1>
+					<h1 id="sport_type">2018.7.8</h1>
+					<h1>南京奥体中心体育馆</h1>
+				</div>
+				<div class="sub">
+					<div class="slogon"></div>
+				</div>
+			</section>
+			<!--赛事价格-->
+			<section id="s-price">
+						<span class="mui-price big">
+            <i class="mui-price-rmb">&yen;</i>
+            <span class="mui-price-integer" id="minprice">100.00</span>
+						<span class="mui-price-integer" id="-">-</span>
+						<span class="mui-price-integer" id="maxprice">880.00</span>
+						</span>
+			</section>
+			<!--价格选择-->
+			<ul class="table-view">
+				<li class="table-view-cell" style="padding: 11px 6px 11px 15px;font-size: 18px;font-style:bold;color:#333;">价格选择 <span style="float: right;margin-right:10px;" class="icon icon icon-more clickwn"></span></li>
+			</ul>
+			<!--赛事须知-->
+			<ul class="table-view" style="margin-top: 10px;">
+				<li class="table-view-cell media">
+					<a class=""> <img class="media-object pull-left" src="images/smalllogo.jpg" />
+						<div class="media-body">
+							<div class="media-body-text">购买须知</div>
+							<h1>比赛时间：2018.07.08周日19:00</h1>
+							<h1>比赛场馆：南京奥体中心体育馆</h1>
+							<h1>比赛时长:约90分钟（以现场为准</h1>
+							<h1>入场时间:演出前约30分钟</h1>
+
+						</div>
+					</a>
+				</li>
+			</ul>
+			<!--验证部分-->
+			<div class="ipo">
+				<ul class="table-view">
+					<li class="table-view-cell media">
+						<a class="">
+							<div class="media-body"> 请填入个人信息 </div>
+						</a>
+					</li>
+				</ul>
+				<form action="" method="post" class="form" onsubmit="return check(this)">
+					<div><span>姓名：</span><input type="text" name="name" id="name" placeholder="请输入您的真实姓名" /><br /></div>
+					<div><span>电话：</span><input type="text" name="phone" id="phone" placeholder="请输入您的电话号码" /><br /></div>
+					<div><span>邮箱：</span><input type="text" name="email" id="email" placeholder="请输入您的邮箱地址" /><br /></div>
+				</form>
+				<div class="spec-menu-btn">
+					<a class="red-color directorder" id="directorder_spec"  style="transform-origin: 0px 0px 0px; opacity: 1; transform: scale(1, 1);">立即购买</a>
+				</div>
+			</div>
+			<!-- 弹出 -->
+			<div class="flick-menu-mask" style=""></div>
+			<div class="spec-menu">
+				<div class="spec-menu-content spec-menu-show" style="display: block;">
+					<div class="spec-menu-top bdr-b">
+						<div class="spec-first-pic"> <img id="spec_image" src="images/logo.jpg" /> </div>
+						<a class="rt-close-btn-wrap spec-menu-close">
+							<p class="flick-menu-close tclck"> <img src="images/close.png" width="24" height="24" /> </p>
+						</a>
+					</div>
+					<div class="spec-menu-middle">
+						<div class="prod-spec" id="prodSpecArea">
+							<!-- 已选 -->
+							<div class="prod-spec" id="prodSpecArea">
+								<!-- 已选 -->
+								<div class="spec-desc"> <span class="part-note-msg">已选</span>
+									<div id="specDetailInfo_spec" class="base-txt"> <span class="amount">1</span>张 </div>
+								</div>
+								<!--//价格和时间-->
+								<div class="nature-container" id="natureCotainer">
+									<div class="pro-color"> <span class="part-note-msg"> 价格 </span>
+										<div id="price" flag="1">
+										</div>
+									</div>
+									<script>
+                                        function choosePrice(obj) {
+                                            $(obj).addClass('selected').siblings().removeClass('selected');
+                                        }
+									</script>
+									//时间
+									<div class="pro-color"> <span class="part-note-msg"> 时间 </span>
+										<p id="time" flag="1">
+										</p>
+									</div>
+									<!--容量-->
+									<!--数量-->
+								</div>
+								<!--尺寸-->
+								<!--容量-->
+								<!--数量-->
+								<div id="addCartNum" class="pro-count"> <span class="part-note-msg" style="margin-right: 10px;">数量</span>
+									<div style="width: 100%;margin-left: 10px;" class="num">
+										<p class="jian" style="float: left;margin-top: 5px;"><img src="images/jian.png" width="16" height="16"></p>
+										<input id="cool" class="inputBorder" value="1" onKeyUp="this.value=this.value.replace(/[^0-9]/g,'')" onafterpaste="this.value=this.value.replace(/[^0-9]/g,'')" type="text" maxlength="5" placeholder="数量" style="font-size: 12px;width: 60px;height: 20px;float: left;padding: 0 5px;margin-top:3px;margin-left: 5px;" />
+										<p class="jia" style="float: left;margin-top: 5px;margin-left:4px;"><img src="images/jia.png" width="16" height="16"></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script src="js/check.js"></script>
+<script src="js/get.js"></script>
+<script src="js/style.js"></script>
+</html>
